@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background: 
+    #ede8e8;
+   
+}
+.flex{
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fer{
+    height: 700px;
+}
+.lo{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lik{
+    font-size: 18px;
+    color: 
+    #6e6b6b;
+    width: 499px;
+    line-height: 32px;
+    margin: 10px;
+}
+.like{margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputs{
+    width: 448px;
+    height: 76px;
+    background: #fff;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: solid 1px #fff;
+}
+.cssa{
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    width: 540px;
+    margin: 10px;
+    margin-top: 39px;
+}
+.btna{
+    padding: 28px 168px;
+    background: 
+    #1F1F1F;
+     font-size: 18px;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 5px;
+}
+
+
+.chek{
+    height: 30px;
+    width: 20px;
+}
+.kols{
+color: 
+#131313;
+    width: 321px;
+    font-size: 16px;
+}
+.from{
+    gap: 20px;
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+@media screen and (max-width: 998px) {
+    main{
+        height: 100%;
+        width: 100%;
+    }
+    .fer{
+        height: 600px;
+    }
+    .flex{
+        gap: 0px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
+
+@media screen and (max-width: 550px) {
+    .inputs{
+        width: 320px;
+        height: 70px;
+    }
+    .btna{
+        padding: 26px 105px;
+    }
+    .cssa{
+        display: flex;
+        justify-content: center;
+    }
+    .fer{
+        height: 350px;
+    }
+    .lo{
+        text-align: center;
+        font-size: 30px;
+    }
+    .lik{
+       font-size: 18px;
+       flex-wrap: wrap;
+       width: 100%;
+       text-align: center;
+    }
+    .kols{
+        font-size: 14px;
+    }
+    .like{
+        text-align: center;
+    }
+    .from{
+        display: flex;
+        justify-content: center;
+    }
+}
